@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.1165" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.1165" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.1165" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_grid_lists.xml" value="0.25" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_line_grid.xml" value="0.20023419203747073" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_line_list.xml" value="0.21604215456674472" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_linear_lists.xml" value="0.2" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_space_grid.xml" value="0.21604215456674472" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/activity_space_list.xml" value="0.21604215456674472" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/recycler_person_info_horizontal.xml" value="0.25" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/recycler_person_info_vertical.xml" value="0.1" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/app/src/main/res/layout/recyler_person_info.xml" value="0.18" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/recyclerview_item_decoration/src/main/res/drawable/divider.xml" value="0.1165" />
+        <entry key="..\:/Project (Self)/RecyclerViewItemDecoration/recyclerview_item_decoration/src/main/res/drawable/horizontal_divider.xml" value="0.1165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

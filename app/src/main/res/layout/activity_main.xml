@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSpaceDecorationTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnSpaceLinearList"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:text="Space Decoration"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"/>
+
+    <Button
+        android:id="@+id/btnSpaceLinearList"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="List"
+        app:icon="@drawable/ic_baseline_list_24"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSpaceDecorationTitle"
+        app:layout_constraintEnd_toStartOf="@id/btnSpaceGridList"
+        app:layout_constraintBottom_toTopOf="@id/guideline"/>
+
+    <Button
+        android:id="@+id/btnSpaceGridList"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Grid"
+        app:icon="@drawable/ic_baseline_grid_on_24"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@id/btnSpaceLinearList"
+        app:layout_constraintTop_toTopOf="@id/btnSpaceLinearList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/btnSpaceLinearList"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <TextView
+        android:id="@+id/tvLineDecorationTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnLineLinearList"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:text="Line (Divider) Decoration"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"/>
+
+    <Button
+        android:id="@+id/btnLineLinearList"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="List"
+        app:icon="@drawable/ic_baseline_list_24"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLineDecorationTitle"
+        app:layout_constraintEnd_toStartOf="@id/btnLineGridList"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnLineGridList"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Grid"
+        app:icon="@drawable/ic_baseline_grid_on_24"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@id/btnLineLinearList"
+        app:layout_constraintTop_toTopOf="@id/btnLineLinearList"
+        app:layout_constraintBottom_toBottomOf="@id/btnLineLinearList"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
